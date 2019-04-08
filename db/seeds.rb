@@ -25,7 +25,7 @@ end
 
 puts "5 blog post"
 
-5.times do |prtfolio_item|
+9.times do |prtfolio_item|
   Portfolio.create!(
     title: "port title #{prtfolio_item}",
     subtitle: "suttitle",
